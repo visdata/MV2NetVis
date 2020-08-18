@@ -7,7 +7,7 @@ backend
 |-- grplasso_with_lambda_fmri.R: group lasso代码  
 |-- index.py: 与前端交互的API  
 |-- node.json: 脑网络节点坐标信息  
-|-- normalValue_198.json: 198人的质量  
+|-- normalValue_198.json: 198人的质量文件  
 |-- run.py: 后端服务启动脚本  
 |-- subject_all_198.txt: 198人的信息  
 |-- utils.py: mv2net系统后端处理脚本  
