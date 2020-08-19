@@ -1,0 +1,556 @@
+{
+	"600030.SH": [
+		{
+			"date": "2014-01-02",
+			"positive": {
+				"bias": -6.175083,
+				"A": { "top5": [{ "factor_name": "size", "ratio": 0.320521 }, { "factor_name": "turn", "ratio": 0.24555 }, { "factor_name": "beta", "ratio": 0.234466 }, { "factor_name": "skew", "ratio": 0.118616 }], "size": 9.156849, "others": 0.080847 },
+				"B": { "top5": [{ "factor_name": "mom6", "ratio": 0.736411 }], "size": 1.141204, "others": 0.263589 },
+				"C": { "top5": [], "size": 0.200422, "others": 1.0 },
+				"D": { "top5": [], "size": 0.50437, "others": 1.0 },
+				"E": { "top5": [], "size": 0.744152, "others": 1.0 },
+				"F": { "top5": [], "size": 0.436462, "others": 1.0 },
+				"sum": 12.183458
+			},
+			"negative": {
+				"bias": -6.175083,
+				"A": { "top5": [{ "factor_name": "illq", "ratio": 0.340272 }, { "factor_name": "retnmax", "ratio": 0.28701 }], "size": -2.149622, "others": 0.372718 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.985493 }], "size": -0.449487, "others": 0.014507 },
+				"C": { "top5": [], "size": -0.058363, "others": 1.0 },
+				"D": { "top5": [], "size": -0.529538, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 0.883848 }], "size": -0.856833, "others": 0.116152 },
+				"F": { "top5": [{ "factor_name": "salecash", "ratio": 1.0 }], "size": -0.547319, "others": 0.0 },
+				"sum": -4.591161
+			}
+		},
+		{
+			"date": "2014-02-07",
+			"positive": {
+				"bias": -4.7692,
+				"A": { "top5": [{ "factor_name": "turn", "ratio": 0.387938 }, { "factor_name": "beta", "ratio": 0.174462 }, { "factor_name": "total_vol", "ratio": 0.170788 }], "size": 6.062012, "others": 0.266812 },
+				"B": { "top5": [], "size": 0.022984, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "DP", "ratio": 0.629299 }], "size": 2.714118, "others": 0.370701 },
+				"D": { "top5": [], "size": 0.970152, "others": 1.0 },
+				"E": { "top5": [], "size": 0.868045, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "CFdebt", "ratio": 1.0 }], "size": 0.915111, "others": 0.0 },
+				"sum": 11.552421
+			},
+			"negative": {
+				"bias": -4.7692,
+				"A": { "top5": [{ "factor_name": "LM", "ratio": 0.761026 }, { "factor_name": "retnmax", "ratio": 0.182043 }], "size": -2.428856, "others": 0.056931 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.894407 }], "size": -2.989516, "others": 0.105593 },
+				"C": { "top5": [], "size": -0.370314, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "LG", "ratio": 0.572525 }], "size": -0.852902, "others": 0.427475 },
+				"E": { "top5": [], "size": -0.062525, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "salecash", "ratio": 1.0 }], "size": -0.910883, "others": 0.0 },
+				"sum": -7.614997
+			}
+		},
+		{
+			"date": "2014-03-10",
+			"positive": {
+				"bias": -5.153941,
+				"A": { "top5": [{ "factor_name": "size", "ratio": 0.469649 }, { "factor_name": "turn", "ratio": 0.196571 }, { "factor_name": "total_vol", "ratio": 0.152203 }], "size": 8.397602, "others": 0.181577 },
+				"B": { "top5": [], "size": 0.0, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "BM", "ratio": 0.668655 }, { "factor_name": "OCFP", "ratio": 0.331345 }], "size": 3.207543, "others": 0.0 },
+				"D": { "top5": [], "size": 0.882204, "others": 1.0 },
+				"E": { "top5": [], "size": 0.516157, "others": 1.0 },
+				"F": { "top5": [], "size": 0.63676, "others": 1.0 },
+				"sum": 13.640266
+			},
+			"negative": {
+				"bias": -5.153941,
+				"A": { "top5": [{ "factor_name": "retnmax", "ratio": 0.329928 }], "size": -1.290061, "others": 0.670072 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.770357 }, { "factor_name": "mom6", "ratio": 0.220378 }], "size": -4.86388, "others": 0.009265 },
+				"C": { "top5": [], "size": -0.167249, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "LG", "ratio": 0.37364 }], "size": -0.866422, "others": 0.62636 },
+				"E": { "top5": [], "size": -0.139413, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "salecash", "ratio": 1.0 }], "size": -0.741635, "others": 0.0 },
+				"sum": -8.068661
+			}
+		},
+		{
+			"date": "2014-04-09",
+			"positive": {
+				"bias": -5.078907,
+				"A": { "top5": [{ "factor_name": "size", "ratio": 0.429252 }, { "factor_name": "turn", "ratio": 0.216203 }, { "factor_name": "total_vol", "ratio": 0.198394 }], "size": 8.740611, "others": 0.156151 },
+				"B": { "top5": [], "size": 0.001514, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "OCFP", "ratio": 0.691277 }], "size": 5.030738, "others": 0.308723 },
+				"D": { "top5": [], "size": 0.263231, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "RD", "ratio": 0.71049 }], "size": 1.43026, "others": 0.28951 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 15.466355
+			},
+			"negative": {
+				"bias": -5.078907,
+				"A": { "top5": [{ "factor_name": "LM", "ratio": 0.386214 }], "size": -1.967346, "others": 0.613786 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.746766 }, { "factor_name": "mom6", "ratio": 0.25264 }], "size": -4.487486, "others": 0.000594 },
+				"C": { "top5": [], "size": 0.0, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "TAXchg", "ratio": 0.987827 }], "size": -0.630181, "others": 0.012173 },
+				"E": { "top5": [], "size": -0.537747, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "salecash", "ratio": 0.86548 }], "size": -3.04754, "others": 0.13452 },
+				"sum": -10.670301
+			}
+		},
+		{
+			"date": "2014-05-12",
+			"positive": {
+				"bias": -4.097148,
+				"A": { "top5": [{ "factor_name": "size", "ratio": 0.397765 }, { "factor_name": "total_vol", "ratio": 0.185162 }], "size": 7.61846, "others": 0.417073 },
+				"B": { "top5": [], "size": 0.0, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "BM", "ratio": 0.749867 }], "size": 2.420772, "others": 0.250133 },
+				"D": { "top5": [{ "factor_name": "BVEG", "ratio": 0.565527 }, { "factor_name": "SG", "ratio": 0.416714 }], "size": 1.846938, "others": 0.017759 },
+				"E": { "top5": [], "size": 0.780461, "others": 1.0 },
+				"F": { "top5": [], "size": 0.01152, "others": 1.0 },
+				"sum": 12.678151
+			},
+			"negative": {
+				"bias": -4.097148,
+				"A": { "top5": [{ "factor_name": "std_turn", "ratio": 0.355479 }], "size": -1.768766, "others": 0.644521 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.698845 }, { "factor_name": "mom6", "ratio": 0.280781 }], "size": -4.034316, "others": 0.020374 },
+				"C": { "top5": [], "size": -0.359166, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "ACCP", "ratio": 0.972676 }], "size": -1.285233, "others": 0.027324 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 1.0 }], "size": -0.948863, "others": 0.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -8.396345
+			}
+		},
+		{
+			"date": "2014-06-11",
+			"positive": {
+				"bias": -4.082015,
+				"A": { "top5": [{ "factor_name": "size", "ratio": 0.292498 }, { "factor_name": "total_vol", "ratio": 0.273177 }, { "factor_name": "turn", "ratio": 0.182822 }, { "factor_name": "idvol", "ratio": 0.127913 }], "size": 9.118931, "others": 0.12359 },
+				"B": { "top5": [], "size": 0.027327, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "BM", "ratio": 0.855208 }], "size": 2.850803, "others": 0.144792 },
+				"D": { "top5": [], "size": 1.487032, "others": 1.0 },
+				"E": { "top5": [], "size": 0.198915, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 13.683009
+			},
+			"negative": {
+				"bias": -4.082015,
+				"A": { "top5": [{ "factor_name": "LM", "ratio": 0.325152 }], "size": -2.376582, "others": 0.674848 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.563786 }, { "factor_name": "mom6", "ratio": 0.436214 }], "size": -4.489037, "others": 0.0 },
+				"C": { "top5": [], "size": 0.0, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "ACCP", "ratio": 0.963478 }], "size": -1.209459, "others": 0.036522 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 0.840641 }], "size": -1.00361, "others": 0.159359 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -9.078688
+			}
+		},
+		{
+			"date": "2014-07-10",
+			"positive": {
+				"bias": -3.067175,
+				"A": { "top5": [{ "factor_name": "turn", "ratio": 0.351196 }, { "factor_name": "total_vol", "ratio": 0.20574 }, { "factor_name": "size", "ratio": 0.192101 }], "size": 8.697271, "others": 0.250963 },
+				"B": { "top5": [], "size": 0.0, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "DP", "ratio": 0.34708 }, { "factor_name": "BM", "ratio": 0.345756 }], "size": 3.084096, "others": 0.307164 },
+				"D": { "top5": [], "size": 1.984493, "others": 1.0 },
+				"E": { "top5": [], "size": 0.380119, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 14.145979
+			},
+			"negative": {
+				"bias": -3.067175,
+				"A": { "top5": [{ "factor_name": "LM", "ratio": 0.482639 }, { "factor_name": "retnmax", "ratio": 0.234061 }], "size": -4.310193, "others": 0.2833 },
+				"B": { "top5": [{ "factor_name": "mom6", "ratio": 0.777934 }], "size": -2.377707, "others": 0.222066 },
+				"C": { "top5": [], "size": 0.0, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "ACCP", "ratio": 0.5681 }], "size": -1.723021, "others": 0.4319 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 1.0 }], "size": -1.804901, "others": 0.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -10.215821
+			}
+		},
+		{
+			"date": "2014-08-08",
+			"positive": {
+				"bias": -3.914384,
+				"A": { "top5": [{ "factor_name": "total_vol", "ratio": 0.246983 }, { "factor_name": "turn", "ratio": 0.220115 }, { "factor_name": "idvol", "ratio": 0.171908 }], "size": 6.743286, "others": 0.360994 },
+				"B": { "top5": [], "size": 0.002781, "others": 1.0 },
+				"C": { "top5": [], "size": 0.972672, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "SG", "ratio": 0.567416 }], "size": 1.506673, "others": 0.432584 },
+				"E": { "top5": [{ "factor_name": "cashpr", "ratio": 0.71966 }], "size": 1.788007, "others": 0.28034 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 11.013419
+			},
+			"negative": {
+				"bias": -3.914384,
+				"A": { "top5": [{ "factor_name": "age", "ratio": 0.627708 }, { "factor_name": "illq", "ratio": 0.354295 }], "size": -3.310916, "others": 0.017997 },
+				"B": { "top5": [], "size": -0.35497, "others": 1.0 },
+				"C": { "top5": [], "size": 0.0, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "ACCP", "ratio": 0.946994 }], "size": -1.106435, "others": 0.053006 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 0.804117 }, { "factor_name": "RD", "ratio": 0.195883 }], "size": -2.117389, "others": 0.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -6.889711
+			}
+		},
+		{
+			"date": "2014-09-09",
+			"positive": {
+				"bias": -4.005837,
+				"A": { "top5": [{ "factor_name": "turn", "ratio": 0.371777 }, { "factor_name": "total_vol", "ratio": 0.205772 }, { "factor_name": "idvol", "ratio": 0.2035 }], "size": 5.630243, "others": 0.218951 },
+				"B": { "top5": [], "size": 0.740296, "others": 1.0 },
+				"C": { "top5": [], "size": 0.415256, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "SG", "ratio": 0.47906 }], "size": 1.802058, "others": 0.52094 },
+				"E": { "top5": [{ "factor_name": "cashpr", "ratio": 0.664759 }], "size": 1.454911, "others": 0.335241 },
+				"F": { "top5": [], "size": 0.038692, "others": 1.0 },
+				"sum": 10.081457
+			},
+			"negative": {
+				"bias": -4.005837,
+				"A": { "top5": [{ "factor_name": "age", "ratio": 0.467394 }, { "factor_name": "illq", "ratio": 0.427845 }, { "factor_name": "retnmax", "ratio": 0.087981 }], "size": -3.762292, "others": 0.01678 },
+				"B": { "top5": [], "size": -0.189912, "others": 1.0 },
+				"C": { "top5": [], "size": 0.0, "others": 1.0 },
+				"D": { "top5": [], "size": -0.004204, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 0.541037 }, { "factor_name": "RDsales", "ratio": 0.458963 }], "size": -1.251252, "others": 0.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -5.20766
+			}
+		},
+		{
+			"date": "2014-10-15",
+			"positive": {
+				"bias": -4.712758,
+				"A": { "top5": [{ "factor_name": "turn", "ratio": 0.412612 }, { "factor_name": "idvol", "ratio": 0.323059 }], "size": 5.7341, "others": 0.264329 },
+				"B": { "top5": [], "size": 0.023693, "others": 1.0 },
+				"C": { "top5": [], "size": 1.403669, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "ACCP", "ratio": 0.658381 }], "size": 1.139248, "others": 0.341619 },
+				"E": { "top5": [{ "factor_name": "RD", "ratio": 0.624556 }, { "factor_name": "cashpr", "ratio": 0.326178 }], "size": 1.905583, "others": 0.049266 },
+				"F": { "top5": [], "size": 0.12482, "others": 1.0 },
+				"sum": 10.331113
+			},
+			"negative": {
+				"bias": -4.712758,
+				"A": { "top5": [{ "factor_name": "age", "ratio": 0.416892 }, { "factor_name": "illq", "ratio": 0.22912 }, { "factor_name": "volumed", "ratio": 0.218128 }], "size": -4.103575, "others": 0.13586 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.943721 }], "size": -0.8403, "others": 0.056279 },
+				"C": { "top5": [], "size": 0.0, "others": 1.0 },
+				"D": { "top5": [], "size": -0.128523, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "RDsales", "ratio": 0.899371 }], "size": -0.817919, "others": 0.100629 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -5.890317
+			}
+		},
+		{
+			"date": "2014-11-13",
+			"positive": {
+				"bias": -1.907876,
+				"A": { "top5": [{ "factor_name": "std_dvol", "ratio": 0.398823 }, { "factor_name": "idvol", "ratio": 0.326657 }, { "factor_name": "LM", "ratio": 0.187028 }], "size": 6.375081, "others": 0.087492 },
+				"B": { "top5": [], "size": 0.574197, "others": 1.0 },
+				"C": { "top5": [], "size": 1.496086, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "ACC", "ratio": 0.571438 }], "size": 2.037408, "others": 0.428562 },
+				"E": { "top5": [{ "factor_name": "RD", "ratio": 0.913933 }], "size": 2.281964, "others": 0.086067 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 12.764734
+			},
+			"negative": {
+				"bias": -1.907876,
+				"A": { "top5": [{ "factor_name": "age", "ratio": 0.343231 }, { "factor_name": "turn", "ratio": 0.262518 }, { "factor_name": "std_turn", "ratio": 0.219463 }, { "factor_name": "illq", "ratio": 0.160225 }], "size": -5.925273, "others": 0.014563 },
+				"B": { "top5": [], "size": 0.0, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "DP", "ratio": 1.0 }], "size": -0.948794, "others": 0.0 },
+				"D": { "top5": [], "size": -0.354787, "others": 1.0 },
+				"E": { "top5": [], "size": -1.688467, "others": 1.0 },
+				"F": { "top5": [], "size": -1.266747, "others": 1.0 },
+				"sum": -10.184067
+			}
+		},
+		{
+			"date": "2014-12-12",
+			"positive": {
+				"bias": -0.398615,
+				"A": { "top5": [{ "factor_name": "std_dvol", "ratio": 0.571346 }, { "factor_name": "volumed", "ratio": 0.277564 }, { "factor_name": "skew", "ratio": 0.096464 }], "size": 16.087586, "others": 0.054626 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.501202 }, { "factor_name": "mom6", "ratio": 0.448298 }], "size": 4.939291, "others": 0.0505 },
+				"C": { "top5": [], "size": 0.595298, "others": 1.0 },
+				"D": { "top5": [], "size": 2.933684, "others": 1.0 },
+				"E": { "top5": [], "size": 0.025315, "others": 1.0 },
+				"F": { "top5": [], "size": 1.382415, "others": 1.0 },
+				"sum": 25.963589
+			},
+			"negative": {
+				"bias": -0.398615,
+				"A": { "top5": [{ "factor_name": "std_turn", "ratio": 0.48748 }, { "factor_name": "age", "ratio": 0.208601 }, { "factor_name": "idvol", "ratio": 0.184057 }], "size": -20.828038, "others": 0.119862 },
+				"B": { "top5": [], "size": -0.29142, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "DP", "ratio": 0.762912 }], "size": -5.104034, "others": 0.237088 },
+				"D": { "top5": [], "size": 0.0, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 0.505805 }], "size": -3.833062, "others": 0.494195 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -30.056554
+			}
+		},
+		{
+			"date": "2015-01-14",
+			"positive": {
+				"bias": -0.021311,
+				"A": { "top5": [{ "factor_name": "volumed", "ratio": 0.381801 }, { "factor_name": "size", "ratio": 0.315928 }, { "factor_name": "turn", "ratio": 0.177727 }], "size": 19.12967, "others": 0.124544 },
+				"B": { "top5": [{ "factor_name": "mom6", "ratio": 0.575552 }, { "factor_name": "mom12", "ratio": 0.409182 }], "size": 3.483088, "others": 0.015266 },
+				"C": { "top5": [], "size": 1.010005, "others": 1.0 },
+				"D": { "top5": [], "size": 1.07933, "others": 1.0 },
+				"E": { "top5": [], "size": 0.0, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 24.702093
+			},
+			"negative": {
+				"bias": -0.021311,
+				"A": { "top5": [{ "factor_name": "LM", "ratio": 0.337493 }], "size": -7.396239, "others": 0.662507 },
+				"B": { "top5": [], "size": -0.617027, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "DP", "ratio": 0.748262 }], "size": -3.56396, "others": 0.251738 },
+				"D": { "top5": [], "size": -0.190915, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "cashpr", "ratio": 0.323969 }, { "factor_name": "cash", "ratio": 0.283007 }], "size": -9.239985, "others": 0.393024 },
+				"F": { "top5": [{ "factor_name": "CFdebt", "ratio": 0.936369 }], "size": -3.518693, "others": 0.063631 },
+				"sum": -24.526819
+			}
+		},
+		{
+			"date": "2015-02-12",
+			"positive": {
+				"bias": -1.636549,
+				"A": { "top5": [{ "factor_name": "turn", "ratio": 0.535638 }, { "factor_name": "std_turn", "ratio": 0.246197 }, { "factor_name": "volumed", "ratio": 0.093955 }], "size": 20.85778, "others": 0.12421 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 1.0 }], "size": 6.08204, "others": 0.0 },
+				"C": { "top5": [{ "factor_name": "AM", "ratio": 0.76423 }], "size": 2.74477, "others": 0.23577 },
+				"D": { "top5": [], "size": 1.435617, "others": 1.0 },
+				"E": { "top5": [], "size": 0.0, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 31.120207
+			},
+			"negative": {
+				"bias": -1.636549,
+				"A": { "top5": [{ "factor_name": "std_dvol", "ratio": 0.306721 }, { "factor_name": "LM", "ratio": 0.238452 }], "size": -12.832767, "others": 0.454827 },
+				"B": { "top5": [], "size": -2.615543, "others": 1.0 },
+				"C": { "top5": [], "size": -0.64319, "others": 1.0 },
+				"D": { "top5": [], "size": 0.0, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 0.356826 }, { "factor_name": "cashpr", "ratio": 0.342632 }], "size": -8.475526, "others": 0.300542 },
+				"F": { "top5": [{ "factor_name": "CFdebt", "ratio": 0.752225 }], "size": -5.477559, "others": 0.247775 },
+				"sum": -30.044584
+			}
+		},
+		{
+			"date": "2015-03-20",
+			"positive": {
+				"bias": -0.503744,
+				"A": { "top5": [{ "factor_name": "volumed", "ratio": 0.704756 }, { "factor_name": "idvol", "ratio": 0.074561 }, { "factor_name": "size", "ratio": 0.068645 }, { "factor_name": "betad", "ratio": 0.053838 }], "size": 20.739393, "others": 0.0982 },
+				"B": { "top5": [{ "factor_name": "mom12", "ratio": 0.945566 }], "size": 3.50066, "others": 0.054434 },
+				"C": { "top5": [], "size": 1.512069, "others": 1.0 },
+				"D": { "top5": [], "size": 1.279224, "others": 1.0 },
+				"E": { "top5": [], "size": 0.0, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 27.031347
+			},
+			"negative": {
+				"bias": -0.503744,
+				"A": { "top5": [{ "factor_name": "std_dvol", "ratio": 0.265058 }, { "factor_name": "beta", "ratio": 0.20721 }], "size": -11.776483, "others": 0.527732 },
+				"B": { "top5": [], "size": -1.016321, "others": 1.0 },
+				"C": { "top5": [], "size": -0.577164, "others": 1.0 },
+				"D": { "top5": [], "size": -0.017564, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "cash", "ratio": 0.457179 }, { "factor_name": "cashpr", "ratio": 0.307673 }], "size": -8.825823, "others": 0.235148 },
+				"F": { "top5": [{ "factor_name": "CFdebt", "ratio": 0.950727 }], "size": -4.964332, "others": 0.049273 },
+				"sum": -27.177688
+			}
+		},
+		{
+			"date": "2015-04-21",
+			"positive": {
+				"bias": -0.241227,
+				"A": { "top5": [{ "factor_name": "volumed", "ratio": 0.608736 }, { "factor_name": "idvol", "ratio": 0.146321 }, { "factor_name": "std_turn", "ratio": 0.105696 }, { "factor_name": "betad", "ratio": 0.074585 }], "size": 17.108461, "others": 0.064662 },
+				"B": { "top5": [{ "factor_name": "mom6", "ratio": 0.947378 }], "size": 2.362556, "others": 0.052622 },
+				"C": { "top5": [], "size": 2.439478, "others": 1.0 },
+				"D": { "top5": [], "size": 3.40758, "others": 1.0 },
+				"E": { "top5": [], "size": 0.904622, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 26.222697
+			},
+			"negative": {
+				"bias": -0.241227,
+				"A": { "top5": [{ "factor_name": "std_dvol", "ratio": 0.27823 }, { "factor_name": "beta", "ratio": 0.277824 }, { "factor_name": "LM", "ratio": 0.152967 }], "size": -11.541344, "others": 0.290979 },
+				"B": { "top5": [], "size": -0.949657, "others": 1.0 },
+				"C": { "top5": [], "size": -1.499961, "others": 1.0 },
+				"D": { "top5": [], "size": -2.053861, "others": 1.0 },
+				"E": { "top5": [], "size": -3.324387, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "salecash", "ratio": 0.517352 }, { "factor_name": "CFdebt", "ratio": 0.482648 }], "size": -7.422371, "others": 0.0 },
+				"sum": -26.791582
+			}
+		},
+		{
+			"date": "2015-05-21",
+			"positive": {
+				"bias": 3.425925,
+				"A": { "top5": [{ "factor_name": "volumed", "ratio": 0.480465 }, { "factor_name": "betad", "ratio": 0.113403 }, { "factor_name": "idvol", "ratio": 0.107075 }], "size": 17.330133, "others": 0.299057 },
+				"B": { "top5": [], "size": 0.0, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "BM", "ratio": 1.0 }], "size": 2.233721, "others": 0.0 },
+				"D": { "top5": [], "size": 1.800563, "others": 1.0 },
+				"E": { "top5": [], "size": 0.61255, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "salecash", "ratio": 0.93646 }], "size": 3.092521, "others": 0.06354 },
+				"sum": 25.069489
+			},
+			"negative": {
+				"bias": 3.425925,
+				"A": { "top5": [{ "factor_name": "beta", "ratio": 0.41567 }], "size": -9.005501, "others": 0.58433 },
+				"B": { "top5": [], "size": -1.457094, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "EP", "ratio": 0.594291 }], "size": -5.937684, "others": 0.405709 },
+				"D": { "top5": [{ "factor_name": "PMG", "ratio": 0.706299 }, { "factor_name": "AG", "ratio": 0.222135 }], "size": -9.680575, "others": 0.071566 },
+				"E": { "top5": [{ "factor_name": "RD", "ratio": 0.920148 }], "size": -1.990545, "others": 0.079852 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -28.071399
+			}
+		},
+		{
+			"date": "2015-06-19",
+			"positive": {
+				"bias": 4.259613,
+				"A": { "top5": [{ "factor_name": "volumed", "ratio": 0.433956 }, { "factor_name": "age", "ratio": 0.18807 }, { "factor_name": "size", "ratio": 0.085998 }], "size": 20.625075, "others": 0.291976 },
+				"B": { "top5": [], "size": 1.261854, "others": 1.0 },
+				"C": { "top5": [], "size": 0.301479, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "TAXchg", "ratio": 1.0 }], "size": 3.085966, "others": 0.0 },
+				"E": { "top5": [], "size": 1.060991, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "salecash", "ratio": 0.817723 }], "size": 2.568772, "others": 0.182277 },
+				"sum": 28.904136
+			},
+			"negative": {
+				"bias": 4.259613,
+				"A": { "top5": [{ "factor_name": "beta", "ratio": 0.408322 }], "size": -10.462393, "others": 0.591678 },
+				"B": { "top5": [{ "factor_name": "momchg", "ratio": 0.965162 }], "size": -3.255595, "others": 0.034838 },
+				"C": { "top5": [{ "factor_name": "EP", "ratio": 0.817297 }], "size": -5.598297, "others": 0.182703 },
+				"D": { "top5": [{ "factor_name": "PMG", "ratio": 0.439755 }, { "factor_name": "AG", "ratio": 0.249842 }], "size": -12.526958, "others": 0.310403 },
+				"E": { "top5": [], "size": -1.447708, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -33.290951
+			}
+		},
+		{
+			"date": "2015-07-21",
+			"positive": {
+				"bias": 4.630888,
+				"A": { "top5": [{ "factor_name": "volumed", "ratio": 0.498977 }, { "factor_name": "age", "ratio": 0.156657 }, { "factor_name": "skew", "ratio": 0.094116 }], "size": 26.618347, "others": 0.25025 },
+				"B": { "top5": [], "size": 2.086132, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "DP", "ratio": 0.906412 }], "size": 3.28177, "others": 0.093588 },
+				"D": { "top5": [{ "factor_name": "TAXchg", "ratio": 1.0 }], "size": 3.226753, "others": 0.0 },
+				"E": { "top5": [], "size": 2.393348, "others": 1.0 },
+				"F": { "top5": [], "size": 1.237757, "others": 1.0 },
+				"sum": 38.844108
+			},
+			"negative": {
+				"bias": 4.630888,
+				"A": { "top5": [{ "factor_name": "beta", "ratio": 0.304053 }, { "factor_name": "std_dvol", "ratio": 0.26298 }, { "factor_name": "size", "ratio": 0.199645 }], "size": -19.237837, "others": 0.233322 },
+				"B": { "top5": [{ "factor_name": "momchg", "ratio": 1.0 }], "size": -4.238731, "others": 0.0 },
+				"C": { "top5": [], "size": -4.711603, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "AG", "ratio": 0.317629 }], "size": -11.666016, "others": 0.682371 },
+				"E": { "top5": [], "size": -1.94179, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -41.795977
+			}
+		},
+		{
+			"date": "2015-08-19",
+			"positive": {
+				"bias": 1.769163,
+				"A": { "top5": [{ "factor_name": "volumed", "ratio": 0.464519 }, { "factor_name": "idvol", "ratio": 0.17673 }], "size": 14.016754, "others": 0.358751 },
+				"B": { "top5": [], "size": 1.31793, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "DP", "ratio": 1.0 }], "size": 1.927853, "others": 0.0 },
+				"D": { "top5": [{ "factor_name": "TAXchg", "ratio": 1.0 }], "size": 2.988385, "others": 0.0 },
+				"E": { "top5": [{ "factor_name": "cashpr", "ratio": 1.0 }], "size": 5.162685, "others": 0.0 },
+				"F": { "top5": [], "size": 1.336113, "others": 1.0 },
+				"sum": 26.74972
+			},
+			"negative": {
+				"bias": 1.769163,
+				"A": { "top5": [{ "factor_name": "beta", "ratio": 0.443519 }], "size": -13.141906, "others": 0.556481 },
+				"B": { "top5": [{ "factor_name": "momchg", "ratio": 0.973112 }], "size": -2.187205, "others": 0.026888 },
+				"C": { "top5": [], "size": -1.122053, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "AG", "ratio": 0.396805 }, { "factor_name": "SG", "ratio": 0.221297 }, { "factor_name": "PMG", "ratio": 0.208215 }], "size": -10.055855, "others": 0.173683 },
+				"E": { "top5": [], "size": -3.311246, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -29.818265
+			}
+		},
+		{
+			"date": "2015-09-21",
+			"positive": {
+				"bias": 2.770635,
+				"A": { "top5": [{ "factor_name": "volumed", "ratio": 0.508127 }], "size": 11.195539, "others": 0.491873 },
+				"B": { "top5": [], "size": 1.614291, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "OCFP", "ratio": 0.591237 }, { "factor_name": "BM", "ratio": 0.188216 }], "size": 19.164413, "others": 0.220547 },
+				"D": { "top5": [{ "factor_name": "TAXchg", "ratio": 0.903857 }], "size": 7.717447, "others": 0.096143 },
+				"E": { "top5": [{ "factor_name": "RD", "ratio": 0.422211 }], "size": 9.667634, "others": 0.577789 },
+				"F": { "top5": [], "size": 2.427876, "others": 1.0 },
+				"sum": 51.7872
+			},
+			"negative": {
+				"bias": 2.770635,
+				"A": { "top5": [{ "factor_name": "beta", "ratio": 0.336951 }], "size": -15.683678, "others": 0.663049 },
+				"B": { "top5": [], "size": -1.296158, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "LEV", "ratio": 1.0 }], "size": -13.720458, "others": 0.0 },
+				"D": { "top5": [{ "factor_name": "AG", "ratio": 0.402236 }, { "factor_name": "SG", "ratio": 0.360712 }], "size": -17.31384, "others": 0.237052 },
+				"E": { "top5": [{ "factor_name": "RDsales", "ratio": 1.0 }], "size": -5.104864, "others": 0.0 },
+				"F": { "top5": [], "size": -2.227996, "others": 1.0 },
+				"sum": -55.346994
+			}
+		},
+		{
+			"date": "2015-10-27",
+			"positive": {
+				"bias": 2.735672,
+				"A": { "top5": [], "size": 6.439915, "others": 1.0 },
+				"B": { "top5": [], "size": 1.7865, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "OCFP", "ratio": 0.535065 }], "size": 11.413163, "others": 0.464935 },
+				"D": { "top5": [{ "factor_name": "BVEG", "ratio": 0.509176 }, { "factor_name": "LG", "ratio": 0.419107 }], "size": 8.119655, "others": 0.071717 },
+				"E": { "top5": [{ "factor_name": "RD", "ratio": 0.320368 }, { "factor_name": "cash", "ratio": 0.245714 }], "size": 11.413376, "others": 0.433918 },
+				"F": { "top5": [], "size": 2.682795, "others": 1.0 },
+				"sum": 41.855404
+			},
+			"negative": {
+				"bias": 2.735672,
+				"A": { "top5": [{ "factor_name": "beta", "ratio": 0.445594 }], "size": -11.058085, "others": 0.554406 },
+				"B": { "top5": [], "size": -1.917527, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "LEV", "ratio": 1.0 }], "size": -12.506518, "others": 0.0 },
+				"D": { "top5": [{ "factor_name": "AG", "ratio": 0.76872 }], "size": -13.753066, "others": 0.23128 },
+				"E": { "top5": [{ "factor_name": "RDsales", "ratio": 0.625792 }, { "factor_name": "CT", "ratio": 0.374208 }], "size": -5.228271, "others": 0.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": -44.463468
+			}
+		},
+		{
+			"date": "2015-11-25",
+			"positive": {
+				"bias": -1.398105,
+				"A": { "top5": [{ "factor_name": "size", "ratio": 0.345746 }], "size": 13.705702, "others": 0.654254 },
+				"B": { "top5": [], "size": 0.380714, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "OCFP", "ratio": 0.554832 }, { "factor_name": "AM", "ratio": 0.246091 }, { "factor_name": "DP", "ratio": 0.155307 }], "size": 20.788258, "others": 0.04377 },
+				"D": { "top5": [], "size": 6.196716, "others": 1.0 },
+				"E": { "top5": [{ "factor_name": "ROE", "ratio": 0.670455 }], "size": 8.825964, "others": 0.329545 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 49.897354
+			},
+			"negative": {
+				"bias": -1.398105,
+				"A": { "top5": [{ "factor_name": "beta", "ratio": 0.256613 }, { "factor_name": "age", "ratio": 0.251932 }, { "factor_name": "total_vol", "ratio": 0.24486 }], "size": -15.693188, "others": 0.246595 },
+				"B": { "top5": [], "size": -1.608623, "others": 1.0 },
+				"C": { "top5": [], "size": -3.285182, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "SG", "ratio": 0.699983 }], "size": -9.221191, "others": 0.300017 },
+				"E": { "top5": [], "size": -3.963185, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "CFdebt", "ratio": 0.884786 }], "size": -12.500057, "others": 0.115214 },
+				"sum": -46.271427
+			}
+		},
+		{
+			"date": "2015-12-24",
+			"positive": {
+				"bias": -1.18268,
+				"A": { "top5": [{ "factor_name": "size", "ratio": 0.563583 }], "size": 10.364489, "others": 0.436417 },
+				"B": { "top5": [], "size": 0.648309, "others": 1.0 },
+				"C": { "top5": [{ "factor_name": "OCFP", "ratio": 0.405012 }, { "factor_name": "AM", "ratio": 0.27815 }, { "factor_name": "DP", "ratio": 0.218555 }], "size": 18.372406, "others": 0.098283 },
+				"D": { "top5": [{ "factor_name": "ACC", "ratio": 0.560798 }], "size": 7.557617, "others": 0.439202 },
+				"E": { "top5": [], "size": 3.71456, "others": 1.0 },
+				"F": { "top5": [], "size": 0.0, "others": 1.0 },
+				"sum": 40.657381
+			},
+			"negative": {
+				"bias": -1.18268,
+				"A": { "top5": [{ "factor_name": "total_vol", "ratio": 0.347552 }, { "factor_name": "age", "ratio": 0.238603 }, { "factor_name": "beta", "ratio": 0.221362 }], "size": -12.692593, "others": 0.192483 },
+				"B": { "top5": [], "size": -1.293043, "others": 1.0 },
+				"C": { "top5": [], "size": -1.886045, "others": 1.0 },
+				"D": { "top5": [{ "factor_name": "SG", "ratio": 0.931433 }], "size": -7.359362, "others": 0.068567 },
+				"E": { "top5": [], "size": -2.025022, "others": 1.0 },
+				"F": { "top5": [{ "factor_name": "CFdebt", "ratio": 0.89702 }], "size": -13.472255, "others": 0.10298 },
+				"sum": -38.72832
+			}
+		}
+	]
+}

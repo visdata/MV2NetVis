@@ -1,0 +1,19 @@
+{
+  "name": "sicken",
+  "children": [
+    {
+      "name": "healthy",
+      "children": [
+        {"name": "female", "size": 2},
+        {"name": "male", "size": 10}
+      ]
+    },
+    {
+      "name": "AD",
+      "children": [
+        {"name": "female", "size": 10},
+        {"name": "male", "size": 10}
+      ]
+    }
+  ]
+}

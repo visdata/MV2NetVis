@@ -1,0 +1,432 @@
+.checkbox {
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+
+
+.checkbox-inner {
+    width: 0px;
+    height: 0px;
+}
+
+.radiobutton {
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+
+.radiobutton-inner {
+    width: 0px;
+    height: 0px;
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.f-full {
+    border-radius: 50%;
+    background-size: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(234, 238, 240);
+    background-image: url("./assets/right.png");
+    cursor: pointer;
+}
+
+.f-full:hover {
+    background-color: rgba(59, 124, 244, 0.5);
+}
+
+.radiobutton-checked {
+    background-color: rgb(59, 124, 244);
+}
+
+.checkbox-checked {
+    background-color: rgb(59, 124, 244);
+}
+
+.textbox-label {
+    font-size: 14px;
+    width: auto;
+    padding-right: 15px;
+    color: black;/*#8998AC;*/
+
+}
+
+.mycard {
+    margin: 10px;
+    /*height: 264px;*/
+    border: 1px solid white;
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.05);
+    background: white;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.mypannel {
+    /*background-color: rgb(249, 250, 252);*/
+}
+
+.mytitle {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.reloadButton:hover {
+    background: rgb(59, 124, 244);
+    color: white;
+    border-radius: 19px;
+    border: 1px solid rgb(50, 110, 220);
+}
+
+.reloadButton {
+    width: 70px;
+    background: rgb(59, 124, 244);
+    color: white;
+    border-radius: 19px;
+}
+
+.mybtn {
+    width: 13px;
+    height: 13px;
+    padding: 0px;
+    border-radius: 50%;
+    line-height: 0.1;
+    background: rgb(59, 124, 244);
+    color: white;
+    border: none;
+    vertical-align: middle;
+    padding-bottom: 1px;
+}
+
+.mybtn:hover {
+    border: 1px solid rgb(128,128,128);
+}
+
+.orderSpan {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    /*outline: 1px solid black;*/
+    text-align: center;
+    font-size: 10px;
+    vertical-align: baseline;
+}
+
+.mycheckbox {
+    opacity: 0;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.mySelected {
+    border: 1px dotted rgba(255, 0, 0, 0.5);
+}
+
+.unSelected {
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.subjectItem {
+    margin-top: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+    padding-left: 2px;
+    font-size: 14px;
+    color: black;/*#8998AC;*/
+}
+
+.colorcheckbox {
+    opacity: 0;
+    width: 16px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.colorSpan {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    font-size: 10px;
+    vertical-align: baseline;
+    border-radius: 50%;
+}
+
+.colorSpan:hover {
+    border: 1px solid rgb(128,128,128);
+}
+
+.purpleCircle {
+    background-color: #775AA9;
+}
+
+.orangeCircle {
+    background-color: #FE8F00;
+}
+
+.grayCircle{
+    background-color: rgb(100, 100, 100);
+}
+
+.greyCircle{
+    background-color: rgb(234, 238, 240);
+}
+
+.blueCircle{
+    background-color: rgb(59, 124, 244);
+}
+
+.hasOk {
+    background-size: 11px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("./assets/right.png");
+}
+
+/*选择的label*/
+.ui-select__display-value {
+    color: black;/*#8998AC;*/
+    font-size: 13px;
+}
+
+/*供选择的label*/
+.ui-select-option--type-basic {
+    color: black;/*#8998AC;*/
+}
+
+.ui-select__display {
+    /*width: 130px;*/
+    width: auto;
+    float: left;
+    min-height: 1.5rem;
+}
+
+/*选择旁边的label*/
+.ui-select__label-text {
+    /*width: 100px;*/
+    float: left;
+    padding-top: 1px;
+    padding-right: 5px;
+    padding-left: 9px;
+    font-size: 14px;
+    line-height: inherit;
+    color: black;/*#8998AC;*/
+}
+
+.ui-select__content {
+    /*width: 240px;*/
+}
+
+.ui-select__display {
+    height: 1.5rem;
+}
+
+.ui-select:not(.is-multiple) .ui-select__display{
+    height: 1.5rem;
+}
+
+/*下拉框*/
+.ui-select__options {
+    color: black;/*#8998AC;*/
+    margin-top: 32px;
+}
+
+.ui-select-option__basic{
+    font-size: 12px;
+}
+
+.mydeletebtn {
+    width: 13px;
+    height: 13px;
+    padding: 0px;
+    border-radius: 50%;
+    line-height: 0.1;
+    background: rgb(234, 238, 240);
+    color: white;
+    border: none;
+    padding-bottom: 2px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.mydeletebtn:hover {
+    background: red;
+}
+
+.loading{ 
+    width: 100%;
+    height: 100%;    
+    position: absolute; 
+    top: 0;    
+    left: 0;   
+    line-height:56px;   
+    color:#fff; 
+    padding-left:60px;  
+    font-size:15px; 
+    background: white url(assets/loader.gif) no-repeat 50% 50%; 
+    opacity: 0.7;   z-index:9999;   
+    -moz-border-radius:20px;    
+    -webkit-border-radius:20px; 
+    border-radius:20px; 
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+path {
+    cursor: pointer;
+}
+
+g text{
+    cursor: pointer;
+}
+
+g circle {
+    cursor: pointer;
+}
+
+line {
+    cursor: pointer;
+}
+
+ellipse {
+    cursor: pointer;
+}
+
+polygon {
+    cursor: pointer;
+}
+
+.rect {
+    cursor: pointer;
+}
+
+.message{ 
+    width: 100%;
+    height: 100%;    
+    position: absolute; 
+    top: 0;    
+    left: 0;   
+    line-height:56px;   
+    color: red;   
+    font-size:18px; 
+    background: white; 
+    opacity: 0.9;   
+    z-index:9999;   
+    -moz-border-radius:20px;    
+    -webkit-border-radius:20px; 
+    border-radius:20px; 
+    text-align: center;
+    padding-top: 45%;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=70);
+}
+
+.fisheye {
+    cursor: url("./assets/big.png"),auto;
+}
+
+.myNum{
+    width: 22px;
+    color: black;/*#8998AC;*/
+    font-size: 10px;
+    margin: 0;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+
+.legend1{
+    position: absolute;
+    left: 38px;
+    top: 112px;
+    z-index: 999;
+    color: black;/*#8998AC;*/
+}
+
+.legend2{
+    position: absolute;
+    left: 38px;
+    top: 407px;
+    z-index: 999;
+    color: black;/*#8998AC;*/
+}
+
+#lengendPurple{
+    height: 79px;
+    width: 5px;
+    background-color: #CDC5E0;
+    background-image: linear-gradient(to bottom, #CDC5E0 , #43208B);
+    border-radius: 4px;
+    float: left;
+}
+
+#lengendOrange {
+    height: 79px;
+    width: 5px;
+    background-color: #FEDBC0;
+    background-image: linear-gradient(to bottom, #FEDBC0 , #F95000);
+    border-radius: 4px;
+    float: left;
+}
+
+.spanLeft{
+    text-align: left;
+    /* width: 20%; */
+    /* display: inline; */
+    /* float: left; */
+    height: 30%;
+    margin: auto;
+    vertical-align: bottom;
+}
+
+.spanMiddle{
+    height: 40%;
+    margin: auto;
+    line-height: 31.59px;
+}
+
+.spanRight{
+    height: 30%;
+}
+
+.pearl {
+    float: left;
+    margin-top: -10px; 
+    margin-right: 4px; 
+    color: black;/*#8998AC;*/ 
+    text-align: left; 
+    font-size: 14px; 
+    line-height: 16px;
+}
+
+.infornation-sunburst {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  margin-left: -133px;
+  margin-top: -55px;
+  text-align: center;
+  font-size: 0.8em;
+  /*color: #8998AC;*/
+  span {
+    font-size: 1em;
+  }
+
+  span.detail {
+    font-size: 0.8em;
+  }
+}

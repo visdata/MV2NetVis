@@ -1,0 +1,28 @@
+{
+  "name": "gender",
+  "children": [{
+      "name": "female",
+      "children": [{
+          "name": "healthy",
+          "size": 2
+        },
+        {
+          "name": "AD",
+          "size": 10
+        }
+      ]
+    },
+    {
+      "name": "male",
+      "children": [{
+          "name": "healthy",
+          "size": 10
+        },
+        {
+          "name": "AD",
+          "size": 10
+        }
+      ]
+    }
+  ]
+}
