@@ -12,3 +12,5 @@ backend
 |-- subject_all_198.txt: 198人的信息  
 |-- utils.py: mv2net系统后端处理脚本  
 |-- utilsForFMri.py: mv2net2系统后端处理脚本  
+|-- BrainDataManager.cpp: 生成纤维特征数据
+|-- BrainRender.cpp: 将纤维特征数据保存为json
