@@ -29,7 +29,7 @@ python3.4 run.py
 ### 1. all_feature_198.json: 
 198人的特征数据（由getOriginData.py生成）。
 
-### 2. all_feature_fmri_198.json
+### 2. all_feature_fmri_198.json:
 198人的特征数据（由getOriginDataForFMri.py生成）。
 
 ### 3. grplasso.R: 
@@ -53,7 +53,7 @@ R语言实现group lasso代码，支持lambda作为参数输入，在utils.py中
 ### 9. normalValue_198.json: 
 198人的质量文件（由getOriginData.py生成）。
 
-### 10. normalValue_fmri_198.json
+### 10. normalValue_fmri_198.json:
 198人的质量文件（由getOriginDataForFMri.py生成）。
 
 ### 11. run.py: 
