@@ -15,7 +15,7 @@ MV2Net系统的后端程序，基于Flask框架，主要包括前后端交互接
 |-- normalValue_fmri_198.json
 |-- run.py 
 |-- subject_all_198.txt 
-|-- utils.py:
+|-- utils.py
 |-- utilsForFMri.py
 |-- BrainDataManager.cpp
 |-- BrainRender.cpp
