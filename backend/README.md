@@ -64,11 +64,11 @@ R语言实现group lasso代码，支持lambda作为参数输入，在utils.py中
 ### 13. utils.py: 
 MV2Net系统后端处理脚本。
 下面介绍几个重要方法：
-13.1 updateSunburst根据用户属性更新sunburst图。
-13.2 getPValueSingle根据用户组返回feature heatmap的特征质量数据。
-13.3 getFeatureViewPValueSingle 单独返回每个network comparison的统计数据。
-13.4 getComparisonViewSingle单独返回每个network comparison的模型分析结果。
-13.5 adjust_algorithm支持high-order composite的布局优化。
+#### 13.1 updateSunburst根据用户属性更新sunburst图。
+#### 13.2 getPValueSingle根据用户组返回feature heatmap的特征质量数据。
+#### 13.3 getFeatureViewPValueSingle 单独返回每个network comparison的统计数据。
+#### 13.4 getComparisonViewSingle单独返回每个network comparison的模型分析结果。
+#### 13.5 adjust_algorithm支持high-order composite的布局优化。
 
 ### 14. utilsForFMri.py:
 同上。
